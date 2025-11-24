@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['bottom-dead-zone', 'court', 'left-doubles-alley', 'left-service-box', 'net', 'right-doubles-alley', 'right-service-box', 'top-dead-zone']
+
+roboflow:
+  workspace: tenniscv-yywpa
+  project: tennis-court-keypoints
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tenniscv-yywpa/tennis-court-keypoints/dataset/1
